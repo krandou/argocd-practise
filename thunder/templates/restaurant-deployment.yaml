@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: restaurant
   name: restaurant
 spec:
-  replicas: {{ .Values.
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       io.kompose.service: restaurant
