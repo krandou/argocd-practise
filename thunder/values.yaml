@@ -8,7 +8,7 @@ image:
   repository: devopseasylearning2021/washetaria
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "argocd001"
+  tag: "001"
 
 imagePullSecrets: []
 nameOverride: ""
